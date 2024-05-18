@@ -11,7 +11,7 @@ const morgan = require('./config/morgan');
 const { errorConverter, errorHandler } = require('./middlewares/error');
 const ApiError = require('./utils/apiError');
 const router = require('./routes/v1');
-   
+    
 const app = express();
 if (config.env !== 'test') {
   app.use(morgan.successHandler);
