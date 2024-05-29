@@ -3,7 +3,7 @@
 
 ## Install Depedencies
 
-    npm install 
+    npm install
 
 ## Run the app
 
