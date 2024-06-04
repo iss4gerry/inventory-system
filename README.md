@@ -1,5 +1,5 @@
 # Inventory System Usinng Express, Prisma, MySQL
- 
+
 
 ## Install Depedencies
 
