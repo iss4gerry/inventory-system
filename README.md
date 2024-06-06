@@ -1,6 +1,5 @@
 # Inventory System Usinng Express, Prisma, MySQL
 
-
 ## Install Depedencies
 
     npm install
