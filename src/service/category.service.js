@@ -7,7 +7,7 @@ const createCategory = async (categoryBody) => {
     data: categoryBody,
   });
 };
-
+ 
 const queryCategorys = async (option) => {
   const categorys = await prisma.category.findMany({
     ...option,
