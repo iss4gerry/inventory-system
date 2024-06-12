@@ -3,8 +3,8 @@ const prisma = require('../prisma');
 const logger = require('./config/logger');
 const config = require('./config/config');
  
-let server; 
-  
+let server;
+
 if (prisma) {
   logger.info('Connected to Database');
   server = app.listen(config.port, () => {
