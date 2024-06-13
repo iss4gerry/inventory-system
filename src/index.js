@@ -2,7 +2,7 @@ const app = require('./app');
 const prisma = require('../prisma');
 const logger = require('./config/logger');
 const config = require('./config/config');
- 
+  
 let server;
 
 if (prisma) {
